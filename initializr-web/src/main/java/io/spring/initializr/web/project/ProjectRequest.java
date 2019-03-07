@@ -55,6 +55,16 @@ public class ProjectRequest {
 	private String packageName;
 
 	private String javaVersion;
+	
+	private String pcfHost;
+
+	public String getPcfHost() {
+		return pcfHost;
+	}
+
+	public void setPcfHost(String pcfHost) {
+		this.pcfHost = pcfHost;
+	}
 
 	// The base directory to create in the archive - no baseDir by default
 	private String baseDir;

@@ -67,7 +67,17 @@ public class InitializrProperties extends InitializrConfiguration {
 	 */
 	@JsonIgnore
 	private final List<DefaultMetadataElement> bootVersions = new ArrayList<>();
+	
+	/**
+	 * Available MLJ PCF Hosts
+	 */
+	@JsonIgnore
+	private final List<DefaultMetadataElement> pcfHosts = new ArrayList<>();
 
+	public List<DefaultMetadataElement> getPcfHosts() {
+		return pcfHosts;
+	}
+	
 	/**
 	 * GroupId metadata.
 	 */

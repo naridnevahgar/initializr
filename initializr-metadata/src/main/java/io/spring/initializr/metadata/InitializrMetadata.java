@@ -50,6 +50,9 @@ public class InitializrMetadata {
 
 	private final SingleSelectCapability languages = new SingleSelectCapability(
 			"language", "Language", "programming language");
+	
+//	private final TextCapability pcfHost = new TextCapability(
+//			"pcfHost", "PCF Host", "MLJ PCF Hosts");
 
 	private final TextCapability name = new TextCapability("name", "Name",
 			"project name (infer application name)");
